@@ -5,7 +5,6 @@ public class JavaQuestion {
         System.out.println(identify(5));
     }
 
-
     public static String identify(int num) {
         if (num % 2 == 0) {
             return "Even";
