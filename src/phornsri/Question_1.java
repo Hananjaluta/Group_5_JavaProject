@@ -1,11 +1,8 @@
-package saim;
+package phornsri;
 
 public class Question_1 {
 
     public static void main(String[] args) {
-
-        System.out.println(identifyNum(5));
-        System.out.println(identifyNum(6));
 
 
         /**
@@ -14,17 +11,7 @@ public class Question_1 {
          identify(5); ->"Odd"
          identify(6); ->"Even"
          */
+
+        System.out.println("Compleated");
     }
-    public static String identifyNum(int n){
-
-        if(n %2 ==0){
-            return "Even";
-        }else
-            return "Odd";
-
-
-    }
-
-
-
 }
