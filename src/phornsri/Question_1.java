@@ -11,6 +11,13 @@ public class Question_1 {
          identify(5); ->"Odd"
          identify(6); ->"Even"
          */
+        if(5 % 2 == 0) {
+            System.out.println("Odd");
+        } if (6 % 2 == 0) {
+            System.out.println("Even");
+        }else {
+            System.out.println("Invalid");
+        }
 
         System.out.println("Compleated");
     }
